@@ -34,8 +34,8 @@ return {
   },
   {
     "nvim-telescope/telescope.nvim",
-    config = function()
-      require("configs.telescope")
+    opts = function()
+      return require "configs.telescope"
     end,
   },
   -- {
