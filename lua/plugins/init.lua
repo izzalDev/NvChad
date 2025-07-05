@@ -32,6 +32,12 @@ return {
       debug = false,
     },
   },
+  {
+    "nvim-telescope/telescope.nvim",
+    config = function()
+      require("configs.telescope")
+    end,
+  },
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
   -- 	opts = {
